@@ -18,9 +18,9 @@ function App() {
         <BrowserRouter>
                 <ImageHeader />
             <Routes>
-                <Route path='/' element={<HomePage /> } />
-                <Route path='/about' element={<AboutPage /> } />
-                <Route path='/contact' element={<ContactPage />} />
+                <Route path='/myFirstproject2' element={<HomePage /> } />
+                <Route path='/myFirstproject2/about' element={<AboutPage /> } />
+                <Route path='/myFirstproject2/contact' element={<ContactPage />} />
         </Routes>
         
         </BrowserRouter>
